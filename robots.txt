@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: tichaelmucker.com/sitemap.xml 
+Sitemap: http://tichaelmucker.com/sitemap.xml 
