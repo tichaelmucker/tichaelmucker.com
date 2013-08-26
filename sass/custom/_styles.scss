@@ -1,2 +1,33 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+.resume {
+	background: #fff;
+	box-shadow: 0 0 5px #ccc;
+	padding: 2em;
+}
+
+.resume header {
+	background: 0 none;
+	padding: 0;
+}
+
+.resume dt > h2 {
+	border-bottom: 1px solid #eee;
+	margin: 0 0 0.2em;
+	padding-bottom: .2em;
+}
+
+.resume .testimonial {
+	font-style: italic;
+	margin: 0;
+}
+
+.resume .testimonial-source {
+	text-align: right;
+}
+
+.resume .col-2 li {
+	display: inline-block;
+	width: 49%;
+}
