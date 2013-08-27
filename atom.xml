@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Michael Tucker]]></title>
   <link href="http://tichaelmucker.com/atom.xml" rel="self"/>
   <link href="http://tichaelmucker.com/"/>
-  <updated>2013-08-24T22:27:08-04:00</updated>
+  <updated>2013-08-27T09:20:37-04:00</updated>
   <id>http://tichaelmucker.com/</id>
   <author>
     <name><![CDATA[Michael Tucker]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Switching to Manual]]></title>
+    <link href="http://tichaelmucker.com/blog/2013/08/26/switching-to-manual/"/>
+    <updated>2013-08-26T20:50:00-04:00</updated>
+    <id>http://tichaelmucker.com/blog/2013/08/26/switching-to-manual</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
