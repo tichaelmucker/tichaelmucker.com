@@ -1,5 +1,4 @@
 body > header {
-  background: $header-bg;
   h1 {
     display: inline-block;
     margin: 0;
@@ -11,7 +10,7 @@ body > header {
   h2 {
     margin: .2em 0 0;
     @extend .sans;
-    font-size: 1em;
+    font-size: .8em;
     color: $subtitle-color;
     font-weight: normal;
   }

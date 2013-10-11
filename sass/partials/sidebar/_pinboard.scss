@@ -5,7 +5,6 @@
   }
   .pin-tag {
     @include hover-link;
-    //@extend .aside-alt-link;
     &:after { content: ','; }
     &:last-child:after { content: ''; }
   }

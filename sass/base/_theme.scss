@@ -8,13 +8,11 @@ $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !defaul
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
-$main-bg: #f8f8f8 !default;
 $page-bg: #252525 !default;
 $article-border: #eeeeee !default;
 
-$header-bg: transparent !default;
 $title-color: #f2f2f2 !default;
-$subtitle-color: #aaa !default;
+$subtitle-color: #306dd1 !default;
 
 $text-color: #f2f2f2 !default;
 $text-color-light: #aaa !default;
@@ -38,23 +36,10 @@ $sidebar-bg: transparent !default;
 $sidebar-link-color: $link-color !default;
 $sidebar-link-color-hover: $link-color-hover !default;
 $sidebar-link-color-active: $link-color-active !default;
-//$sidebar-color: change-color(mix($text-color, $sidebar-bg, 80), $hue: hue($sidebar-bg), //$saturation: saturation($sidebar-bg)/2) !default;
-//$sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
-//$sidebar-border-hover: darken($sidebar-bg, 7) !default;
-//$sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
-//$sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
 
 $footer-color: #888 !default;
-$footer-bg: #ccc !default;
-$footer-bg-front: image-url('noise.png') !default;
-$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11)) !default;
-$footer-color: darken($footer-bg, 38) !default;
 $footer-color-hover: darken($footer-color, 10) !default;
-$footer-border-top: lighten($footer-bg, 15) !default;
-$footer-border-bottom: darken($footer-bg, 15) !default;
-$footer-link-color: darken($footer-bg, 38) !default;
 $footer-link-color-hover: darken($footer-color, 25) !default;
-$page-border-bottom: darken($footer-bg, 5) !default;
 
 
 /* Core theme application */
@@ -84,10 +69,5 @@ html {
 body {
   > div {
     background: $sidebar-bg $noise-bg;
-    border-bottom: 1px solid $page-border-bottom;
-    > div {
-      background: $main-bg $noise-bg;
-      //border-right: 1px solid $sidebar-border;
-    }
   }
 }
